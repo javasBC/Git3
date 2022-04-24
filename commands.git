@@ -1,0 +1,500 @@
+ 134  git config --global -e
+  135  git config --global diff.tool.cmd vscode
+  136  git config --global -e
+  137  git config --global difftool.vscode.cmd "code --wait --diff $LOCAL $REMOTE"
+  138  git config --global -e
+  139  GIT STATUS
+  140  git statu
+  141  git status
+  142  git config --global -e
+  143  code
+  144  git staus
+  145  git status
+  146  log
+  147  git log
+  148  git log --oneline
+  149  git log --oneline -3
+  150  git log --oneline --author="hothaifa"
+  151  git log --oneline --before="2020-08-17"
+  152  git log --oneline --after="2020-08-17"
+  153  git log --oneline --after="todaty"
+  154  git log --oneline --after="today"
+  155  git log --oneline --after="yesterday"
+  156  git log --oneline
+  157  git log
+  158  git log --oneline -- file1.py
+  159  cleatr
+  160  clear
+  161  git log --pretty=format
+  162  git log --pretty=format:"hello"
+  163  git log --pretty=format:"hello %an"
+  164  git log --pretty=format:"hello %an comitted %H"
+  165  git log --pretty=format:"hello %an comitted %h"
+  166  git log --pretty=format:"hello %an comitted %h on %cd"
+  167  git log --pretty=format:"%Cgreenhello %an comitted %h on %cd"
+  168  git log --pretty=format:"%Cgreen %an%Creset comitted %h on %cd"
+  169  git config --global alias.lg "log --pretty=format:'%an created %h on %cd'"
+  170  git lg
+  171  git log -state
+  172  git log -stat
+  173  git log --stat
+  174   code
+  175  git status
+  176  echo hiiiii>>file4.java
+  177  git status
+  178  git add file4.java
+  179  git status
+  180  git status -s
+  181  git restore --staged
+  182  git restore --staged .
+  183  git status -s
+  184  git status
+  185  git restore
+  186  git restore .
+  187  ghit status
+  188  git status
+  189  git status
+  190  echo hiii>> new folder/file2.txt
+  191  git statis
+  192  git status
+  193  git add .
+  194  git ls
+  195  git ls-trees
+  196  git ls-trees head
+  197  git ls-trees HEAD
+  198  git ls-tree HEAD
+  199  git commit
+  200  git ls-tree HEAD
+  201  git init
+  202  ls
+  203  cd Projects/
+  204  cd Sun/
+  205  clear
+  206  gut status
+  207  echo hodi > hodi.txt
+  208  gut status
+  209  git status
+  210  git commit -am"dir commit"
+  211  clear
+  212  git status
+  213  git status -s
+  214  git add .
+  215  git status -s
+  216  mkdir venv
+  217  git status
+  218  echo "hello from the other side">>venv/file11.txt
+  219  git status
+  220  git add venv/
+  221  gim commit -m "adding a file"
+  222  git commit -m "adding a file"
+  223  git status -s
+  224  git status
+  225  rm fil4.java
+  226  git status
+  227  git add fil4.java
+  228  git status
+  229  git rm file1.py
+  230  git status
+  231  echo "this is a test" >> hodi.txt
+  232  git status -s
+  233  git config --global -e
+  234  git diff
+  235  git difftool
+  236  git difftool
+  237  git difftool --staged
+  238  git difftool
+  239  git difftool
+  240  git difftool
+  241  git add .
+  242  git commit -m "after diff "
+  243  git log
+  244  git log
+  245  git log
+  246  CLEAR
+  247  git log --oneline
+  248  git log
+  249  git log --oneline
+  250  git log --oneline --reverse
+  251  git show 0e8089
+  252  git log --oneline --reverse
+  253  git show 248
+  254  git show 248e
+  255  clear
+  256  git show 248e
+  257  git log --oneline --reverse
+  258  git show HEAD
+  259  git log --oneline --reverse
+  260  git show HEAD~3
+  261  clear
+  262  git log --oneline --reverse
+  263  git ls-tree HEAD
+  264  git ls-tree 37v0936
+  265  git ls-tree 37c0936
+  266  git ls-tree HEADgit -- version
+  267  git ls-tree HEAD~1
+  268  git show 28ca70
+  269  clear
+  270  git status
+  271  echo "this is the GIT basics">>hodi.txt
+  272  status
+  273  git status
+  274  git add hodi.txt
+  275  git status -s
+  276  git --version
+  277  git restore
+  278  git restore hodi.txt
+  279  git status -s
+  280  git restore --staged hodi.txt
+  281  git status -s
+  282  git status
+  283  git add hodi.txt
+  284  git status
+  285  git restore --staged hodi.txt
+  286  git status
+  287  git add hodi.txt
+  288  git status
+  289  git restore --staged hodi.txt
+  290  git restore .
+  291  git restore --stagged  .
+  292  git restore --stagged  . -f
+  293  git restore --staged  .
+  294  git restore  .
+  295  clear
+  296  git status
+  297  git status
+  298  git status
+  299  clear
+  300  git status
+  301  git log
+  302  git log --oneline
+  303  git log --oneline -3
+  304  git log --oneline -5
+  305  git log --oneline --author="hothaifa"
+  306  git log --oneline --author="hothaifa"
+  307  git
+  308  git log --oneline --after="2022-03-14"
+  309  git log --oneline --before="2022-03-14"
+  310  git log --oneline --after="last week"
+  311  git log --oneline --after="yesterday"
+  312  git log --oneline 248efca..0e8089d
+  313  git log --oneline 0e8089d..248efca
+  314  git show 37c09
+  315  clear
+  316  git log
+  317  clear
+  318  git log --pretty=format:"hodi"
+  319  git log --pretty=format:"hello %an"
+  320  git log --pretty=format:"hi: %an comitted %H"
+  321  git log --pretty=format:"hi: %an comitted %h"
+  322  git log --pretty=format:"hi: %an comitted %h on %cd"
+  323  git log --pretty=format:"%Cgreenhi: %an comitted %h on %cd"
+  324  git log --pretty=format:"%Cgreenhi:%Creset %an comitted %h on %cd"
+  325  git log --pretty=format:"%Cgreenhi:%Creset %Cred%an%Creset comitted %h on %cd"
+  326  git log --pretty=format:"%Cgreenhi:%Creset %an %Cgreencomitted%Creset %h on %cd"
+  327  git log --pretty=format:"%Cgreenhi:%Creset %Cred%an%Creset comitted %h %Cgreenon%Creset %cd"
+  328  git log --pretty=format:"%Cgreenhi:%Creset %Cred%an%Creset %Cgreencomitted/Creset %h %Cgreenon%Creset %cd"
+  329  git log --pretty=format:"%Cgreenhi:%Creset %Cred%an%Creset %Cgreencomitted%Creset %h %Cgreenon%Creset %cd"
+  330  git log --pretty=format:"%Cgreenhi:%Creset %Cred%an%Creset %Cgreencomitted%Creset %h %Cgreenon%Creset %as"
+  331  git log --pretty=format:"%Cgreenhi:%Creset %Cred%an%Creset %Cgreencomitted%Creset %h %Cgreenon%Creset %ah"
+  332  git log --pretty=format:"%Cgreenhi:%Creset %Cred%an%Creset %Cgreencomitted%Creset %h %Cgreenon%Creset %as"
+  333  git config --global alias.his "git log --pretty=format:'%Cgreenhi:%Creset %Cred%an%Creset %Cgreencomitted%Creset %h %Cgreenon%Creset %as'
+  334  "
+  335  git config --global -e
+  336  git his
+  337  git config --global -e
+  338  git his
+  339  git config --global -e
+  340  git his
+  341  git config --global -e
+  342  git
+  343  git his
+  344  git config --global -e
+  345  va]
+  346  ls
+  347  cd Projects/
+  348  ls
+  349  cd homeworkFolder/
+  350  cls
+  351  clear
+  352  git init
+  353  echo "somthing" >> file1.txt
+  354  echo "aint nothing but a heart break" >> file2.txt
+  355  ls
+  356  git ls-files
+  357  git status
+  358  clear
+  359  git status -s
+  360  git add .
+  361  clear
+  362  git status -s
+  363  git status
+  364  git commit
+  365  git log
+  366  git log --oneline
+  367  cledarclear
+  368  git show HEAD
+  369  clear
+  370  echo "hello, its mee " >> file2.txt
+  371  git status
+  372  git add ,
+  373  git add .
+  374  git status
+  375  git commit -m "second commit"
+  376  git ls-files
+  377  clear
+  378  git ls-files
+  379  git reset --satged
+  380  git reset --satgged
+  381  git reset --staged
+  382  git reset -staged
+  383  git clear --staged
+  384  git --help
+  385  git clean
+  386  git clean -fd
+  387  git ls-files
+  388  git commit
+  389  git log
+  390  git clean -fd
+  391  git clean
+  392  git clean -d
+  393  git clean -fd
+  394  clear
+  395  status
+  396  echo file2.txt
+  397  echo "aaa" >\file2.txt
+  398  git status
+  399  git clean -fd
+  400  git status
+  401  git add .
+  402  git status
+  403  git clean -fd
+  404  git status
+  405  git status
+  406  git clean
+  407  git clean
+  408  git clean -f
+  409  git status
+  410  status
+  411  git status
+  412  git rm file1.txt
+  413  ls
+  414  git ls-files
+  415  git ls-files --staged
+  416  git rm file1.txt --staged
+  417  git rm --staged  file2.txt
+  418  git rm --staged  file2.txt --help
+  419  git rm --staged  file2.txt -f
+  420  git rm --staged-f  file2.txt
+  421  clear
+  422  git reset file2.txt
+  423  ls
+  424  git ls-files
+  425  git status
+  426  clean
+  427  clear
+  428  git log
+  429  clear
+  430  git log
+  431  git diff HEAD
+  432  git status
+  433  git commit -m changes
+  434  git commit -m no changes
+  435  git commit -m "no changes"
+  436  clear
+  437  git diff HEAD
+  438  git log
+  439  clear
+  440  git log --oneline
+  441  clear
+  442  git difftool Head
+  443  clear
+  444  git log --oneline --author = "hothaifa zoubi"
+  445  git log --oneline --author = 'hothaifa zoubi'
+  446  git log --oneline
+  447  git config --global -e
+  448  git log --oneline --author 'hothaifa zoubi'
+  449  git log --oneline --afte lasweek
+  450  git log --oneline --afte lastweek
+  451  git log --oneline --after lastweek
+  452  clear
+  453  git log
+  454  git branch\
+  455  git branch
+  456  git branch fixbug-auth
+  457  git branch
+  458  git branch add-MongodbConnection
+  459  git branch
+  460  git switch fixbug-auth
+  461  clear
+  462  git log
+  463  clear
+  464  echo a >> file3.txt
+  465  git add .
+  466  git commit -m "the firts commit from fix"
+  467  git log
+  468  git switch master
+  469  git switch fixbug-auth
+  470  git switch master
+  471  git add
+  472  git switch add-MongodbConnection
+  473  echo "99 fm " >> file5.txt
+  474  git add .
+  475  git commit -m "this is the mongo connection"
+  476  git log
+  477  git switch master
+  478  git log
+  479  git log --oneline
+  480  git log --oneline -a
+  481  git log --oneline -all
+  482  git log --oneline --all
+  483  git log master..fixbug-auth
+  484  git diff master..fixbug-auth
+  485  git diff fixbug-auth
+  486  clear
+  487  git branches
+  488  git log --oneline --all --graph
+  489  git merge add-MongodbConnection
+  490  ls
+  491  cd Projects/
+  492  ls
+  493  cd Sun
+  494  vlear
+  495  clear
+  496  git commit --ineline
+  497  git commit --online
+  498  git commit --oneline
+  499  git log --oneline
+  500  git log
+  501  mkdir fold
+  502  cd fold
+  503  git init
+  504  echo "good morning" >> file1.txt
+  505  echo "life is good" >> file2.txt
+  506  git add file1.txt
+  507  git commit -m "adding file1"
+  508  git add .
+  509  git commit -m "adding a new file called file2"
+  510  clear
+  511  git status
+  512  git log
+  513  clear
+  514  clear
+  515  clear
+  516  git log
+  517  gt log --oneline
+  518  gt log -oneline
+  519  gt log --oneline
+  520  git log --oneline
+  521  clear
+  522  git status
+  523  git branch
+  524  git branch john
+  525  hit branch
+  526  git branch
+  527  git branch signup-remove
+  528  git branch
+  529  git branch -m john add-login
+  530  git branch
+  531  clear
+  532  git branch
+  533  git switch add-login
+  534  git log
+  535  git log --oneline
+  536  echo "i love java" >> file1.txt
+  537  git status
+  538  git add .
+  539  git commit -m "from the branch"
+  540  git log --oneline
+  541  git switch master
+  542  git log --oneline
+  543  git log --oneline --all
+  544  git switch add-login
+  545  git rm file2.txt
+  546  git commit -m "without file2"
+  547  git switch master
+  548  git log master..add-login
+  549  git log --oneline
+  550  git log --oneline --all
+  551  git diff master..add-login
+  552  clear
+  553  git loh --oneline -all
+  554  git log --oneline -all
+  555  git log --oneline --all
+  556  git log --oneline --all --graph
+  557  git merge --no-ff add-login
+  558  git log --oneline --all --graph
+  559  cd ..
+  560  cd Projects/
+  561  cd Sun/
+  562  git log
+  563  git log --oneline --all --graph
+  564  cd k..
+  565  cd ..
+  566  ls
+  567  cd homeworkFolder/
+  568  git log --oneline --all --graph
+  569  cd ..q
+  570  cd ../..
+  571  cd fold/
+  572  git log --oneline --all --graph
+  573  cleat
+  574  clear
+  575  echo "work hard" >> file3.txt
+  576  git add .
+  577  git commit -m
+  578  git commit -m "file3 added"
+  579  git log --oneline --all --graph
+  580  git branch mongodb
+  581  git switch  mongodb
+  582  echo "addd" >> file4.txt
+  583  git add .
+  584  git commit -m "database added "
+  585  git switch master
+  586  echo "print(x)" >> py.py
+  587  git log --oneline --all --graph
+  588  git add .
+  589  git commit
+  590  git log --oneline --all --graph
+  591  git merge mongodb
+  592  git log --oneline --all --graph
+  593  git config --global ff no
+  594  git config --global ff no
+  595* g
+  596  git config --global merge.ff no
+  597  git config --global -e
+  598  git branch -d mongodb
+  599  git log --oneline --all --graph
+  600  git branch -d add-login
+  601  git log --oneline --all --graph
+  602  git branch -d signup-remove
+  603  git log --oneline --all --graph
+  604  git branch
+  605  git ls
+  606  ls
+  607  git branch conflictbranch
+  608  git branch
+  609  git log --oneline --all --graph
+  610  clearq
+  611  clear
+  612  git branch
+  613  code file1.txt
+  614  git log --oneline --all --graph
+  615  git add .
+  616  git commit -m "edit file 1"
+  617  git log --oneline --all --graph
+  618  git switch conflictbranch
+  619  echo "have a nice week">> file1.txt
+  620  git switch master
+  621  git switch master
+  622  git add .
+  623  git commit -m "editing file1 "
+  624  git switch master
+  625  clear
+  626  git log --oneline --all --graph
+  627  git merge conflictbranch
+  628  git status
+  629  code file1.txt
+  630  git add file1.txt
+  631  git commit -m "master with confictbranch"
+  632  git log --oneline --all --graph
+  633  history
